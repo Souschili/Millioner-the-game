@@ -1,3 +1,9 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <h1>This is MILIONER</h1>
+
+<app-game-card *ngIf="isGameStart" [question]="currentQ" ></app-game-card>
+<div *ngIf="!isGameStart">
+  <input type="button" (click)="getStart()" value="START">
+</div>
+
 <router-outlet></router-outlet>
