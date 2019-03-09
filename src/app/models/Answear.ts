@@ -1,5 +1,4 @@
 /*вспомогательный класс вопрос */
-
 export class Answear {
    answearText: string;
    isCorect: boolean;
@@ -8,6 +7,5 @@ export class Answear {
    constructor(text: string, corect = false) {
      this.answearText = text;
      this.isCorect = corect;
-
    }
 }
