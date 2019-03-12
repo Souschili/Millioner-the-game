@@ -17,10 +17,8 @@ answearClick = new EventEmitter<Answear>();
   constructor() { }
 
   isOk(ans: Answear): void {
-    alert(ans.answearText);
-
-    this.answearClick.emit(ans)
-
+    // отсылаем вопрос
+    this.answearClick.emit(ans);
   }
 
   ngOnInit() {

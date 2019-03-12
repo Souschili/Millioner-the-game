@@ -5,7 +5,7 @@
   <div class="answears" *ngFor="let answear of question.answearList" >
     <p (click)="isOk(answear)">{{answear.answearText}}- {{answear.isCorect}} </p>
   </div>
-  <div>
+  <div >
     <p>Текущая игровая карта карта </p>
     <h3>{{question | json}}</h3>
   </div>

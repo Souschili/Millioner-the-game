@@ -10,7 +10,7 @@ export class QuestionFakeRepository {
                                         [new Answear('I don\'t know..'), new Answear('Imperor'),
                                          new Answear('Chaos', true), new Answear('Orcks...WAAAGHH !!')]),
                                         new GameQuestion ('What is type of variable true/false ?',
-                                        [new Answear('integer'), new Answear('string'), new Answear('boolean'), new Answear('any')]),
+                                        [new Answear('integer'), new Answear('string'), new Answear('boolean', true), new Answear('any')]),
                                         new GameQuestion ('What is the pi ?',
                                         [new Answear('over 9000'), new Answear('3.14', true),
                                         new Answear('cat'), new Answear('city in Africa')])
