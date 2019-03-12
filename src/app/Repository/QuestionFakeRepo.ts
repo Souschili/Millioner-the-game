@@ -4,7 +4,7 @@ import { GameQuestion } from '../models/GameQuestion';
 export class QuestionFakeRepository {
 
   // вопросы для игры
-  private setOfQuestions: Array<GameQuestion> = [new GameQuestion ('What is the main answear in the univerce ?',
+  private setOfQuestions: Array<GameQuestion> = [new GameQuestion ('The answer to the main question of life, the universe and all that ?',
                                         [new Answear('13'), new Answear('42', true), new Answear('55'), new Answear('99')]),
                                         new GameQuestion ('Chaos or Imperator ? ?',
                                         [new Answear('I don\'t know..'), new Answear('Imperor'),

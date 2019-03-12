@@ -28,6 +28,7 @@ export class AppComponent {
     this.isGameStart = true;
     this.scores = 0;
     this.currentQ = this.currentSet[this.index = 0];
+    this.isWin = false;
   }
 
 // упрощеный подсчет очков
