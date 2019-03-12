@@ -1,3 +1,4 @@
+import { Answear } from './models/Answear';
 import { Component } from '@angular/core';
 import { GameQuestion } from './models/GameQuestion';
 import { QuestionService } from './services/question-service.service';
@@ -24,4 +25,8 @@ export class AppComponent {
     this.isGameStart = true;
   }
 
+  isTrue(ans: Answear) {
+    alert(ans.answearText)
+
+  }
 }

@@ -1,3 +1,12 @@
-<p>
-  game-card works!
-</p>
+<div>
+  <div class="Question">
+    <h2>{{question.questionText}}</h2>
+  </div>
+  <div class="answears" *ngFor="let answear of question.answearList" >
+    <p (click)="isOk(answear)">{{answear.answearText}}- {{answear.isCorect}} </p>
+  </div>
+  <div>
+    <p>Текущая игровая карта карта </p>
+    <h3>{{question | json}}</h3>
+  </div>
+</div>
