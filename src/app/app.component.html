@@ -5,7 +5,7 @@
   <hr>
 <h1>This is MILIONER Game</h1>
 <app-game-card *ngIf="isGameStart" [question]="currentQ"  (answearClick)="isTrue($event)"></app-game-card>
-<h4>You score is {{scores}}</h4>
+<h3>You score is {{scores}}</h3>
 <div *ngIf="!isGameStart">
   <input type="button" (click)="getStart()" value="START">
 </div>
